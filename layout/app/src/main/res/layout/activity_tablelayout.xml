@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tablelayout">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:background="#000000">
+
+
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Open..."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Ctrl-O"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Save..."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Ctrl-S"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Save as..."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Ctrl-Shift-S"/>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/white">
+
+        </View>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="X Import..."/>
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="X Export..."/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Ctrl-E"/>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/white">
+
+        </View>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Quit"/>
+
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
